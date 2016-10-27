@@ -1,0 +1,35 @@
+{
+  "name": "data-app",
+  "version": "1.0.0",
+  "description": "A data driven dashboard that tells the story of internet-related topics",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "livereload": "^0.5.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2"
+  },
+  "scripts": {
+    "test": "Hello World"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorcui96/sass-starter.git"
+  },
+  "keywords": [
+    "key"
+  ],
+  "author": "Victor Cui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorcui96/sass-starter/issues"
+  },
+  "homepage": "https://github.com/victorcui96/sass-starter#readme"
+}
