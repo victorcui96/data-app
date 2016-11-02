@@ -1,6 +1,7 @@
 <!-- The main HTML file. The HTML uses BEM syntax, which is a standardized way of naming HTML classes. Read about Bem syntax at http://cssguidelin.es/#bem-like-naming -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
     <title> </title>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display" rel="stylesheet">
     <!-- Makes browsers render all elements more consistently and in line with modern standards. -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <!-- Font Awesome -->
@@ -19,6 +21,7 @@
     <!-- Bootstrap core CSS -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/c3.min.css">
     <!-- Custom styles for this template -->
     <link href="css/style.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -29,14 +32,79 @@
 </head>
 
 <body>
-        <!-- Bootstrap core JavaScript
+    <nav class="navbar navbar-default" id="top-navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#internet-sessions">Internet Sessions & Wi-fi hotspots</a></li>
+                    <li><a href="#internet-connections">Internet connections & IoT </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="internet-sessions">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel-group">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h4>What are internet sessions?</h4>
+                            </div>
+                            <div class="panel-body">
+                                <p>An internet session is a time frame of activity that a user (sometimes called a client) with a unique IP address spends on a website, which resides on a server. Internet sessions are known to have a positive correlation with internet usage. The more internet sessions a certain area has, generally the higher the amount of people in that area using the internet</p>
+                                <p>Below is a line graph showing the number of internet sessions over 5 years in 4 major Hawaiian libraries: <strong>Health Sciences Library</strong>, <strong>Hilo</strong>, <strong>Pearl City</strong>, and <strong>Kaimuki</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="library-internet">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h4>Number of internet sessions in 3 major Hawaiian Libraries</h4>
+                            </div>
+                            <div class="panel-body">
+                                <h5>Hover over a data point to view the value</h5>
+                                <div id="library-internet-chart"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+                       
+                
+            
+        </div>
+    </div>
+    <div id="internet-connections">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div>TESTESTSETE</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript
                 ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <!-- <script src="js/ie10-viewport-bug-workaround.js"></script> -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/d3.min.js" charset="utf-8"></script>
+    <script src="js/c3.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
 </body>
 
 </html>

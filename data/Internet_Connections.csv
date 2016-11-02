@@ -1,0 +1,149 @@
+﻿Year,Question,Response,Sub-response,Connections
+2011,Dial-up and broadband Internet connections,Broadband,,1450000
+2011,Dial-up and broadband Internet connections,Dial-up,,208000
+2011,Residential and business Internet connections,Residential,,1361000
+2011,Residential and business Internet connections,Business/Government,,298000
+2011,Mobile phone Internet connections,Mobile,,1908000
+2011,Broadband Internet data caps,Less than 5GB,,303000
+2011,Broadband Internet data caps,5GB to less than 20GB,,696000
+2011,Broadband Internet data caps,20GB to less than 50GB,,400000
+2011,Broadband Internet data caps,50GB or more,,29000
+2011,Broadband Internet data caps,No cap,,22000
+2011,Broadband Internet download and upload speeds,Download less than 1.5Mbps,,169000
+2011,Broadband Internet download and upload speeds,Download 1.5Mbps to less than 8Mbps,,308000
+2011,Broadband Internet download and upload speeds,Download 8Mbps to less than 24Mbps,,936000
+2011,Broadband Internet download and upload speeds,Download 24Mbps to less than 50Mbps,,25000
+2011,Broadband Internet download and upload speeds,Download 50Mbps to less than 100Mbps,,170
+2011,Broadband Internet download and upload speeds,Download 100Mbps or greater,,4800
+2011,Broadband Internet download and upload speeds,Download Unknown,,7500
+2011,Broadband Internet download and upload speeds,Upload less than 1.5Mbp,,1162000
+2011,Broadband Internet download and upload speeds,Upload 1.5Mbps to less than 10Mbps,,252000
+2011,Broadband Internet download and upload speeds,Upload 10Mbps or greater,,7100
+2011,Broadband Internet download and upload speeds,Upload Unknown,,30000
+2012,Dial-up and broadband Internet connections,Broadband,,1616000
+2012,Dial-up and broadband Internet connections,Dial-up,,127000
+2012,Residential and business Internet connections,Residential,,1434000
+2012,Residential and business Internet connections,Business/Government,,309000
+2012,Mobile phone Internet connections,Mobile,,2552000
+2012,Broadband Internet data caps,Less than 5GB,Residential,181000
+2012,Broadband Internet data caps,5GB to less than 20GB,Residential,227000
+2012,Broadband Internet data caps,20GB to less than 50GB,Residential,623000
+2012,Broadband Internet data caps,50GB to less than 100GB,Residential,135000
+2012,Broadband Internet data caps,100GB or more,Residential,116000
+2012,Broadband Internet data caps,No cap,Residential,75000
+2012,Broadband Internet data caps,Less than 5GB,Business/Government,117000
+2012,Broadband Internet data caps,5GB to less than 20GB,Business/Government,82000
+2012,Broadband Internet data caps,20GB to less than 50GB,Business/Government,45000
+2012,Broadband Internet data caps,50GB to less than 100GB,Business/Government,3100
+2012,Broadband Internet data caps,100GB or more,Business/Government,2400
+2012,Broadband Internet data caps,No cap,Business/Government,8000
+2012,Broadband Internet download and upload speeds,Download less than 1.5Mbps,,39000
+2012,Broadband Internet download and upload speeds,Download 1.5Mbps to less than 8Mbps,,453000
+2012,Broadband Internet download and upload speeds,Download 8Mbps to less than 24Mbps,,1105000
+2012,Broadband Internet download and upload speeds,Download 24Mbps to less than 50Mbps,,10000
+2012,Broadband Internet download and upload speeds,Download 50Mbps to less than 100Mbps,,870
+2012,Broadband Internet download and upload speeds,Download 100Mbps or greater,,1800
+2012,Broadband Internet download and upload speeds,Download Unknown,,5900
+2012,Broadband Internet download and upload speeds,Upload less than 1.5Mbp,,1178000
+2012,Broadband Internet download and upload speeds,Upload 1.5Mbps to less than 10Mbps,,421000
+2012,Broadband Internet download and upload speeds,Upload 10Mbps or greater,,9800
+2012,Broadband Internet download and upload speeds,Upload Unknown,,6600
+2013,Dial-up and broadband Internet connections,Broadband,,1772000
+2013,Dial-up and broadband Internet connections,Dial-up,,99000
+2013,Residential and business Internet connections,Residential,,1471000
+2013,Residential and business Internet connections,Business/Government,,399000
+2013,Mobile phone Internet connections,Mobile,,3209000
+2013,Broadband Internet data caps,Less than 5GB,Residential,230000
+2013,Broadband Internet data caps,5GB to less than 20GB,Residential,116000
+2013,Broadband Internet data caps,20GB to less than 50GB,Residential,580000
+2013,Broadband Internet data caps,50GB to less than 100GB,Residential,264000
+2013,Broadband Internet data caps,100GB or more,Residential,168000
+2013,Broadband Internet data caps,No cap,Residential,73000
+2013,Broadband Internet data caps,Less than 5GB,Business/Government,140000
+2013,Broadband Internet data caps,5GB to less than 20GB,Business/Government,74000
+2013,Broadband Internet data caps,20GB to less than 50GB,Business/Government,97000
+2013,Broadband Internet data caps,50GB to less than 100GB,Business/Government,10000
+2013,Broadband Internet data caps,100GB or more,Business/Government,10000
+2013,Broadband Internet data caps,No cap,Business/Government,9300
+2013,Broadband Internet download and upload speeds,Download less than 1.5Mbps,,32000
+2013,Broadband Internet download and upload speeds,Download 1.5Mbps to less than 8Mbps,,170000
+2013,Broadband Internet download and upload speeds,Download 8Mbps to less than 24Mbps,,1427000
+2013,Broadband Internet download and upload speeds,Download 24Mbps to less than 50Mbps,,61000
+2013,Broadband Internet download and upload speeds,Download 50Mbps to less than 100Mbps,,1500
+2013,Broadband Internet download and upload speeds,Download 100Mbps or greater,,71000
+2013,Broadband Internet download and upload speeds,Download Unknown,,11000
+2013,Broadband Internet download and upload speeds,Upload less than 1.5Mbp,,763000
+2013,Broadband Internet download and upload speeds,Upload 1.5Mbps to less than 10Mbps,,982000
+2013,Broadband Internet download and upload speeds,Upload 10Mbps or greater,,17000
+2013,Broadband Internet download and upload speeds,Upload Unknown,,11000
+2014,Dial-up and broadband Internet connections,Broadband,,1916000
+2014,Dial-up and broadband Internet connections,Dial-up,,65000
+2014,Residential and business Internet connections,Residential,,1595000
+2014,Residential and business Internet connections,Business/Government,,386000
+2014,Mobile phone Internet connections,Mobile,,3709000
+2014,Broadband Internet data caps,Less than 5GB,Residential,147000
+2014,Broadband Internet data caps,5GB to less than 20GB,Residential,76000
+2014,Broadband Internet data caps,20GB to less than 50GB,Residential,548000
+2014,Broadband Internet data caps,50GB to less than 100GB,Residential,436000
+2014,Broadband Internet data caps,100GB or more,Residential,197000
+2014,Broadband Internet data caps,No cap,Residential,127000
+2014,Broadband Internet data caps,Less than 5GB,Business/Government,124000
+2014,Broadband Internet data caps,5GB to less than 20GB,Business/Government,47000
+2014,Broadband Internet data caps,20GB to less than 50GB,Business/Government,68000
+2014,Broadband Internet data caps,50GB to less than 100GB,Business/Government,28000
+2014,Broadband Internet data caps,100GB or more,Business/Government,87000
+2014,Broadband Internet data caps,No cap,Business/Government,28000
+2014,Broadband Internet download and upload speeds,Download less than 1.5Mbps,,52000
+2014,Broadband Internet download and upload speeds,Download 1.5Mbps to less than 8Mbps,,203000
+2014,Broadband Internet download and upload speeds,Download 8Mbps to less than 24Mbps,,1339000
+2014,Broadband Internet download and upload speeds,Download 24Mbps to less than 50Mbps,,176000
+2014,Broadband Internet download and upload speeds,Download 50Mbps to less than 100Mbps,,20000
+2014,Broadband Internet download and upload speeds,Download 100Mbps or greater,,106000
+2014,Broadband Internet download and upload speeds,Download Unknown,,18000
+2014,Broadband Internet download and upload speeds,Upload less than 1.5Mbp,,737000
+2014,Broadband Internet download and upload speeds,Upload 1.5Mbps to less than 10Mbps,,855000
+2014,Broadband Internet download and upload speeds,Upload 10Mbps or greater,,303000
+2014,Broadband Internet download and upload speeds,Upload Unknown,,18000
+2015,Dial-up and broadband Internet connections,Broadband,,1926000
+2015,Dial-up and broadband Internet connections,Dial-up,,53000
+2015,Residential and business Internet connections,Residential,,1661000
+2015,Residential and business Internet connections,Business/Government,,316000
+2015,Mobile phone Internet connections,Mobile,,3959000
+2015,Broadband Internet data caps,Less than 5GB,Residential,119000
+2015,Broadband Internet data caps,5GB to less than 20GB,Residential,49000
+2015,Broadband Internet data caps,20GB to less than 50GB,Residential,448000
+2015,Broadband Internet data caps,50GB to less than 100GB,Residential,398000
+2015,Broadband Internet data caps,100GB or more,Residential,66000
+2015,Broadband Internet data caps,No cap,Residential,527000
+2015,Broadband Internet data caps,Less than 5GB,Business/Government,86000
+2015,Broadband Internet data caps,5GB to less than 20GB,Business/Government,16000
+2015,Broadband Internet data caps,20GB to less than 50GB,Business/Government,44000
+2015,Broadband Internet data caps,50GB to less than 100GB,Business/Government,12000
+2015,Broadband Internet data caps,100GB or more,Business/Government,58000
+2015,Broadband Internet data caps,No cap,Business/Government,99000
+2015,Broadband Internet download and upload speeds,Download less than 1.5Mbps,,13000
+2015,Broadband Internet download and upload speeds,Download 1.5Mbps to less than 8Mbps,,32000
+2015,Broadband Internet download and upload speeds,Download 8Mbps to less than 24Mbps,,1424000
+2015,Broadband Internet download and upload speeds,Download 24Mbps to less than 50Mbps,,193000
+2015,Broadband Internet download and upload speeds,Download 50Mbps to less than 100Mbps,,102000
+2015,Broadband Internet download and upload speeds,Download 100Mbps or greater,,163000
+2015,Broadband Internet download and upload speeds,Download Unknown,,18000
+2015,Broadband Internet download and upload speeds,Upload less than 1.5Mbp,,682000
+2015,Broadband Internet download and upload speeds,Upload 1.5Mbps to less than 10Mbps,,864000
+2015,Broadband Internet download and upload speeds,Upload 10Mbps or greater,,362000
+2015,Broadband Internet download and upload speeds,Upload Unknown,,12000
+2011,Broadband Internet connections,Digital subscriber line,,1034000
+2011,Broadband Internet connections,"Cellular, satellite, cable and fixed wireless",,413000
+2011,Broadband Internet connections,Fibre optic,,3700
+2012,Broadband Internet connections,Digital subscriber line,,1131000
+2012,Broadband Internet connections,"Cellular, satellite, cable and fixed wireless",,479000
+2012,Broadband Internet connections,Fibre optic,,5400
+2013,Broadband Internet connections,Digital subscriber line,,1189000
+2013,Broadband Internet connections,"Cellular, satellite, cable and fixed wireless",,570000
+2013,Broadband Internet connections,Fibre optic,,13000
+2014,Broadband Internet connections,Digital subscriber line,,1321000
+2014,Broadband Internet connections,"Cellular, satellite, cable and fixed wireless",,550000
+2014,Broadband Internet connections,Fibre optic,,46000
+2015,Broadband Internet connections,Digital subscriber line,,1335000
+2015,Broadband Internet connections,"Cellular, satellite, cable and fixed wireless",,485000
+2015,Broadband Internet connections,Fibre optic,,105000

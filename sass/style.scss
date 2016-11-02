@@ -1,0 +1,49 @@
+// Color variables
+$light-purple: #8888c2;
+$light-gray: #cecee7;
+
+// Fonts
+$playfair: 'Playfair Display', serif;
+$open-sans: 'Open Sans', sans-serif;
+
+
+body {
+    background: #fff;
+	color: #000;
+    // background-image: url("../images/internet2.jpg");
+    background-repeat: repeat;
+    background-position: center center;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $playfair;
+}
+
+p {
+	font-family: $open-sans;
+	line-height: 1.5;
+}
+
+#top-navbar, .navbar-default {
+	background-color: $light-gray;
+	a {
+		font-family: $playfair !important;
+		font-size: 100%;
+	}
+}
+
+.panel-info {
+	border-color: $light-gray;
+	.panel-heading {
+		background-color: $light-purple;
+		border-color: $light-gray;
+		color: black;
+	}
+}
+
+.library-internet {
+	h4, h5 {
+		text-align: center;
+	}
+}
