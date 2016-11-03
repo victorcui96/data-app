@@ -73,6 +73,9 @@ function generateLibraryChart(data) {
                 }
                 
             }
+        },
+        size: {
+            height: 380
         }
     });
 }

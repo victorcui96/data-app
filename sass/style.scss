@@ -1,6 +1,11 @@
 // Color variables
+$dark-purple: #535387;
 $light-purple: #8888c2;
 $light-gray: #cecee7;
+$maroon: #885353;
+
+// breakpoints
+$screen-lg-min: 1280px;
 
 // Fonts
 $playfair: 'Playfair Display', serif;
@@ -42,8 +47,62 @@ p {
 	}
 }
 
+// Internet sessions div
+
 .library-internet {
-	h4, h5 {
+	h2, h4, h5 {
 		text-align: center;
+	}
+	.library-internet-chart {
+		@media screen and (min-width: 1280px) {
+			svg {
+				height: 280px;
+			}
+		}
+	}
+}
+
+.internet-facts {
+	h2, h3, h4 {
+		text-align: center;
+	}
+
+	h3 {
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+
+	hr {
+		border: 3px solid $maroon;
+	}
+
+	div {
+		background-color: $light-gray;
+		border-color: $dark-purple;
+		border-radius: 10px;
+		h2 {
+			margin-bottom: 10px;
+		}
+		p {
+			padding: 12px;
+		}
+	}
+	
+	.tcp-ip {
+		
+		hr {
+			margin-bottom: 2px;
+		}
+		
+
+	}
+}
+
+// Wifi hotspot div
+#wifi-hotspots {
+	.panel-heading {
+		h4 {
+			text-align: center;
+		}
 	}
 }
