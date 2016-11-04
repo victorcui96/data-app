@@ -1,9 +1,81 @@
 // same as document.ready()
 $(function() {
     loadData("data/library-internet-sessions-2011-2016-condensed.json");
+    generateHighMap();
+    $('#bronx-wifi-hotspots').DataTable({
+        "ajax": '../data/bronx-wifi-hotspots.json'
+    });
 
 
 });
+
+function generateHighMap() {
+    var H = Highcharts,
+        map = H.maps['countries/us/us-ny-all'],
+        nyChart;
+    var data = [];
+    $.getJSON('../data/free-wifi-hotspots-ny-condensed.json', function(json) {
+        console.log('yo');
+        $.each(json, function() {
+            data.push(this);
+        });
+
+        console.log(data);
+        nyChart = Highcharts.mapChart('wifi-hotspots-highmaps', {
+            title: {
+                text: 'Highmaps lat/lon demo'
+            },
+            mapNavigation: {
+                enabled: true
+            },
+            tooltip: {
+                pointFormat: '{point.capital}, {point.parentState}<br>' +
+                    'Lat: {point.lat}<br>' +
+                    'Lon: {point.lon}<br>' +
+                    'Population: {point.population}'
+            },
+
+            series: [{
+                name: 'Basemap',
+                mapData: map,
+                borderColor: '#G30FGE',
+                nullColor: 'rgba(200, 200, 200, 0.2)',
+                showInLegend: false
+            }, {
+                name: 'Separators',
+                type: 'mapline',
+                data: H.geojson(map, 'mapline'),
+                color: '#101010',
+                enableMouseTracking: false,
+                showInLegend: false
+            }, {
+                type: 'mappoint',
+                dataLabels: {
+                    enabled: true,
+                    format: '{point.LAT}'
+                },
+                name: 'Cities',
+                data: data,
+            //     // data: [{
+            //     //     name: 'Todl',
+            //     //     lat: 40.6095775
+            //     //     }, {
+            //     //         name: 'birmingham',
+            //     //         lat: -74.0
+
+            //     //     }
+            //     // }]
+                maxSize: '12%',
+                color: H.getOptions().colors[0]
+            }]
+
+        });
+
+    });
+
+
+
+}
 
 function loadData(dataURL) {
     $.ajax({
@@ -16,7 +88,7 @@ function loadData(dataURL) {
 
 function generateLibraryChart(data) {
     var hslData = [];
-    
+
     var hiloData = [];
     var pearlCityData = [];
     var kaimukiData = [];
@@ -27,25 +99,21 @@ function generateLibraryChart(data) {
             for (var prop in library) {
                 hslData.push(library[prop]);
             }
-        }
-        else if (library.Library === 'Hilo') {
+        } else if (library.Library === 'Hilo') {
             for (var prop in library) {
                 hiloData.push(library[prop]);
             }
-        }
-        else if (library.Library === 'Pearl City') {
+        } else if (library.Library === 'Pearl City') {
             for (var prop in library) {
                 pearlCityData.push(library[prop]);
             }
-        }
-         else if (library.Library === 'Kaimuki') {
+        } else if (library.Library === 'Kaimuki') {
             for (var prop in library) {
                 kaimukiData.push(library[prop]);
             }
         }
 
     });
-    console.log(hslData);
 
     var libraryChart = c3.generate({
         bindto: '#library-internet-chart',
@@ -57,7 +125,8 @@ function generateLibraryChart(data) {
                 hiloData,
                 pearlCityData,
                 kaimukiData
-            ]
+            ],
+            type: 'spline'
         },
         axis: {
             x: {
@@ -71,7 +140,7 @@ function generateLibraryChart(data) {
                     position: "outer-middle"
 
                 }
-                
+
             }
         },
         size: {

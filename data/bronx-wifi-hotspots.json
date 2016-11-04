@@ -1,0 +1,539 @@
+{
+   "data":  [
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "1212 E Gun Hill Road\nBronx, NY 10469\n(40.872822322000445, -73.85217659599965)"
+  ],
+  [
+    "NYC Public Library - Bronx Library Center",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "310 East Kingsbridge Road\nBronx, NY 10458\n(40.863130501000455, -73.89426116599964)"
+  ],
+  [
+    "NYC Public Library - City Island Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "320 City Island Avenue\nBronx, NY 10464\n(40.847613184000465, -73.78658861299965)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "982 Southern Blvd\nBronx, NY 10459\n(40.82246551500049, -73.89169819899968)"
+  ],
+  [
+    "NYC Public Library - Edenwald Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "1255 East 233rd Street\nBronx, NY 10466\n(40.888634510000486, -73.84084081799966)"
+  ],
+  [
+    "Starbucks",
+    "Fee-based",
+     "http://www.starbucks.com",
+     "1385 Metropolitan Avenue\nBronx, NY 10462\n(40.835297392000484, -73.86123785299964)"
+  ],
+  [
+    "NYC Public Library - High Bridge Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "78 West 168th Street\nBronx, NY 10452\n(40.83813336200046, -73.92348430199962)"
+  ],
+  [
+    "NYC Public Library - Pelham Bay Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "3060 Middletown Road\nBronx, NY 10461\n(40.84453428800049, -73.82807190999966)"
+  ],
+  [
+    "The UPS Store",
+    "Fee-based",
+     "http://www.theupsstore.com/",
+     "318a East 149th St\nBronx, NY 10451\n(40.81687488500046, -73.92083368699963)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "1625 Webster Ave\nBronx, NY 10457\n(40.8420350290005, -73.90412159399966)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "597-99 Grand Concourse\nBronx, NY 10451\n(40.81981531800045, -73.92672732099965)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "875 Garrison Ave\nBronx, NY 10474\n(40.81653268700046, -73.89265269699968)"
+  ],
+  [
+    "NYC Public Library - Kingsbridge Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "280 West 231st Street\nBronx, NY 10463\n(40.88050506900049, -73.90788470999968)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "3279 3rd Avenue\nBronx, NY 10456\n(40.82512373300045, -73.90832231999963)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "1865 Bruckner Blvd\nBronx, NY 10472\n(40.82604823000048, -73.86169434099963)"
+  ],
+  [
+    "Community Access - Davidson Avenue",
+    "Free",
+     "https://auth.nycwireless.net/hotspots_map.php",
+     "1750 Davidson Avenue\nBronx, NY 10453\n(40.8475221540005, -73.91359426699967)"
+  ],
+  [
+    "Corner Scone",
+    "Free",
+     "http://cornerscone.com/",
+     "4279 Webster Avenue\nBronx, NY 10470\n(40.8982549480005, -73.86241537299964)"
+  ],
+  [
+    "NYC Public Library - Wakefield Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "4100 Lowerre Place\nBronx, NY 10466\n(40.89117404600046, -73.85974122399966)"
+  ],
+  [
+    "NYC Public Library - Melrose Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "910 Morris Avenue\nBronx, NY 10451\n(40.826594387000455, -73.91785762399962)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "4174 White Plains Rd\nBronx, NY 10466\n(40.8930246110005, -73.85747122799967)"
+  ],
+  [
+    "NYC Public Library - Hunt's Point Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "877 Southern Boulevard\nBronx, NY 10459\n(40.81854226600046, -73.89396168899964)"
+  ],
+  [
+    "Community Access",
+    "Free",
+     "http://auth.nycwireless.net/node_list.php",
+     "1363 Franklin Avenue\nBronx, NY 10456\n(40.833078302000445, -73.90095719199962)"
+  ],
+  [
+    "NYC Public Library -Soundview Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "660 Soundview Avenue\nBronx, NY 10473\n(40.81812846000048, -73.86263924899964)"
+  ],
+  [
+    "Subway",
+    "Free",
+     "http://auth.nycwireless.net/node_list.php",
+     "2438 Jerome Ave\nBronx, NY 10468\n(40.86237933700045, -73.90131845699966)"
+  ],
+  [
+    "The Bruckner Bar & Grill",
+    "Free",
+     "http://www.openwifispots.com/spot_free_wifi_wireless_hotspot_Bruckner_Bar_and_Grill_New_York_NY_23205.aspx",
+     "1 Bruckner Blvd\nBronx, NY 10454\n(40.80825950800045, -73.93054676799966)"
+  ],
+  [
+    "NYC Public Library - Woodstock Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "761 East 160th Street\nBronx, NY 10456\n(40.820467729000484, -73.90470441299965)"
+  ],
+  [
+    "NYC Public Library - Clason's Point Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "1215 Morrison Avenue\nBronx, NY 10472\n(40.829992491000496, -73.87474508499963)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "1317 Castlehill Avenue\nBronx, NY 10462\n(40.83476928300047, -73.85190551099964)"
+  ],
+  [
+    "Panera Bread",
+    "Free",
+     "http://www.panerabread.com/cafes/results.php?NAV=2&state=NY&zip=&city=&address=&radius=10&action=searchwifi",
+     "340 Baychester Avenue\nBronx, NY 10475\n(40.86649080300049, -73.83057342599966)"
+  ],
+  [
+    "Good to Go Rest",
+    "Free",
+     "http://www.wififreespot.com/ny.html",
+     "1894 Eastchester Rd\nBronx, NY 10461\n(40.851663456000495, -73.84397224699967)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "51-67 E 161st St\nBronx, NY 10451\n(40.827894486000446, -73.92549561799967)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "101 E 170th St\nBronx, NY 10452\n(40.839457334000485, -73.91560038899968)"
+  ],
+  [
+    "NYC Public Library - Riverdale Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "5540 Mosholu Avenue\nBronx, NY 10471\n(40.90383071000048, -73.90308430499965)"
+  ],
+  [
+    "NYC Public Library - Westchester Square",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "2521 Glebe Avenue\nBronx, NY 10461\n(40.84050874500048, -73.84691235599968)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "1540 Westchester Ave\nBronx, NY 10472\n(40.82863595800046, -73.87812141599966)"
+  ],
+  [
+    "T-Mobile",
+    "Fee-based",
+     "http://www.t-mobile.com/",
+     "314 East Fordham Road\nBronx, NY 10458\n(40.86196209600047, -73.89418703599966)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "212 E 161st Street\nBronx, NY 10451\n(40.82622701000048, -73.92059635299967)"
+  ],
+  [
+    "NYC Public Library - Grand Concourse Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "155 East 173rd Street\nBronx, NY 10457\n(40.84383831000048, -73.91007980699965)"
+  ],
+  [
+    "NYC Public Library - Sedgwich Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "1701 Martin Luther King Jr Blvd\nBronx, NY 10453\n(40.84932459300046, -73.91731481099964)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "1600 Boston Rd\nBronx, NY 10460\n(40.83583340700045, -73.89064426999965)"
+  ],
+  [
+    "NYC Public Library - Van Nest Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "2147 Barnes Avenue\nBronx, NY 10462\n(40.854832230000454, -73.86389635199964)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "2630 Jerome Ave\nBronx, NY 10468\n(40.86696240700047, -73.89774981399967)"
+  ],
+  [
+    "Starbucks",
+    "Fee-based",
+     "http://www.starbucks.com",
+     "50 W. 225th Street\nBronx, NY 10463\n(40.87372414000049, -73.90847548999966)"
+  ],
+  [
+    "NYC Public Library - Morris Park Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "985 Morris Park Avenue\nBronx, NY 10462\n(40.847925915000474, -73.85671858599966)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "1201 E 233rd St\nBronx, NY 10466\n(40.889002426000445, -73.84348983099966)"
+  ],
+  [
+    "NYC Public Library - Tremont Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "1866 Washington Avenue\nBronx, NY 10457\n(40.84612443700047, -73.89853163899966)"
+  ],
+  [
+    "NYC Public Library - Castel Hill Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "947 Castle Hill Avenue\nBronx, NY 10473\n(40.82666239600047, -73.84985464599964)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "1600 Bruckner Blvd\nBronx, NY 10473\n(40.82391471200049, -73.87468543799963)"
+  ],
+  [
+    "Coomunity Access - Rev James A. Polite Avenue",
+    "Free",
+     "https://auth.nycwireless.net/hotspots_map.php",
+     "1022 Rev James A Polite Avenue\nBronx, NY 10459\n(40.824029433000476, -73.89884390799966)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "1515 Williamsbridge Rd\nBronx, NY 10461\n(40.84475325200049, -73.84656254999965)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "36 W Fordham Rd\nBronx, NY 10468\n(40.86268356700049, -73.90283322599964)"
+  ],
+  [
+    "Barnes & Noble",
+    "Free",
+     "http://www.barnesandnobleinc.com",
+     "290 Baychester Ave\nBronx, NY 10475\n(40.865494294000484, -73.83013910399967)"
+  ],
+  [
+    "NYC Public Library - Baychester Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "2049 Asch Loop North\nBronx, NY 10475\n(40.87087227000046, -73.82707716299967)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "85 Bruckner Blvd\nBronx, NY 10454\n(40.80612643000046, -73.92577964699967)"
+  ],
+  [
+    "NYC Public Library - West Farms Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "2085 Honeywell Avenue\nBronx, NY 10460\n(40.84463978500048, -73.88276194999963)"
+  ],
+  [
+    "NYC Public Library - Mott Haven Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "321 East 140th Street\nBronx, NY 10454\n(40.81143642300049, -73.92430902599966)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "1101 E Tremont Ave\nBronx, NY 10460\n(40.84000812500045, -73.87703005999964)"
+  ],
+  [
+    "NYC Public Library - Francis Martin Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "2150 University Avenue\nBronx, NY 10453\n(40.857412027000464, -73.90956770299965)"
+  ],
+  [
+    "NYC Public Library - Mosholu Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "285 East 205th Street\nBronx, NY 10467\n(40.8742182200005, -73.87833905199966)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "86 E 167th St\nBronx, NY 10452\n(40.83524579200048, -73.91986770799963)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "2516 White Plains Rd\nBronx, NY 10467\n(40.863466890000495, -73.86737420899965)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "1982 Westchester Ave\nBronx, NY 10462\n(40.83350091900047, -73.85802791499964)"
+  ],
+  [
+    "NYC Public Library - Spuyten Duyvil Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "650 W. 235th St.\nBronx, NY 10463\n(40.8864531480005, -73.91455642199963)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "3440-42 Jerome Ave\nBronx, NY 10467\n(40.881565683000474, -73.88251724799966)"
+  ],
+  [
+    "Community Access -Tinton Avenue",
+    "Free",
+     "https://auth.nycwireless.net/hotspots_map.php",
+     "1189 Tinton Avenue\nBronx, NY 10456\n(40.82886460800046, -73.90058382099966)"
+  ],
+  [
+    "NYC Public Library - Allerton Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "2740 Barnes Avenue\nBronx, NY 10467\n(40.86678945900047, -73.86345387599965)"
+  ],
+  [
+    "NYC Public Library - Morrisania Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "610 East 169th Street\nBronx, NY 10456\n(40.8314831350005, -73.90140571499967)"
+  ],
+  [
+    "City Line Diner",
+    "Free",
+     "http://www.openwifispots.com/spot_free_wifi_wireless_hotspot_City_Line_Diner_Bronx_NY_24466.aspx",
+     "4350 Katonah Ave.\nBronx, NY 10470\n(40.900506377000454, -73.86769542599967)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "2065 Jerome Ave\nBronx, NY 10453\n(40.854122918000485, -73.90711718899968)"
+  ],
+  [
+    "NYC Public Library - Throg's Neck Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "3025 Cross Bronx Expressway Extension\nBronx, NY 10465\n(40.82273772500048, -73.81915209699963)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "2505 Southern Blvd\nBronx, NY 10458\n(40.85596917100048, -73.88093655399967)"
+  ],
+  [
+    "Burger King",
+    "Free",
+     "http://www.wififreespot.com/ny.html",
+     "103 E 161 Street\nBronx, NY 10451\n(40.82750017400048, -73.92425971499966)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "2357 Arthur Ave\nBronx, NY 10458\n(40.854656399000476, -73.88837599699963)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "372 E Fordham Rd\nBronx, NY 10458\n(40.86181606000048, -73.89245440799965)"
+  ],
+  [
+    "T-Mobile",
+    "Fee-based",
+     "http://www.t-mobile.com/",
+     "2883 3rd Ave\nBronx, NY 10455\n(40.816713596000454, -73.91665011799967)"
+  ],
+  [
+    "NYC Public Library - Eastchester Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "1385 East Gun Hill Road\nBronx, NY 10469\n(40.869945559000485, -73.84517753399967)"
+  ],
+  [
+    "NYC Public Library - Van Cortlandt",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "3874 Sedgwick Avenue\nBronx, NY 10463\n(40.88297325600047, -73.89397436399963)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "300 E 204th St\nBronx, NY 10467\n(40.873022248000495, -73.87864304599964)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "1745 University Ave\nBronx, NY 10453\n(40.85007722100045, -73.91623373699963)"
+  ],
+  [
+    "NYC Public Library - Jerome Park Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "118 Eames Place\nBronx, NY 10468\n(40.86921385900047, -73.90120608499967)"
+  ],
+  [
+    "Starbucks",
+    "Fee-based",
+     "http://www.starbucks.com",
+     "40-50 W 225th St\nBronx, NY 10463\n(40.87364592600045, -73.90817032799964)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "2870 3rd Ave\nBronx, NY 10455\n(40.816402232000485, -73.91699340799966)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "2170 White Plains Rd\nBronx, NY 10462\n(40.85560511600045, -73.86762767999966)"
+  ],
+  [
+    "NYC Public Library - Belmont Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "610 E. 186th Street\nBronx, NY 10458\n(40.854554635000454, -73.88787302099968)"
+  ],
+  [
+    "NYC Public Library - Woodlawn Heights",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "4355 Katonah Avenue\nBronx, NY 10470\n(40.90052377300049, -73.86777297799966)"
+  ],
+  [
+    "NYC Public Library - Parkchester Branch",
+    "Free",
+     "http://www.nypl.org/branch/services/wifi.html",
+     "1985 Westchester Avenue\nBronx, NY 10462\n(40.83351847300048, -73.85832391699967)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "599 E Tremont Ave\nBronx, NY 10457\n(40.84643680500045, -73.89349082899963)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "513 E 138th St\nBronx, NY 10454\n(40.807456163000495, -73.91891896099963)"
+  ],
+  [
+    "McDonald's",
+    "Fee-based",
+     "http://www.mcdonalds.com/wireless.html",
+     "5765 Broadway\nBronx, NY 10463\n(40.883655606000445, -73.90152173799964)"
+  ]
+  
+  ]
+}

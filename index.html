@@ -19,9 +19,11 @@
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/50aab16c9f.js"></script>
     <!-- Bootstrap core CSS -->
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- C3 CSS -->
     <link rel="stylesheet" type="text/css" href="css/c3.min.css">
+    <!-- Datables CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
     <!-- Custom styles for this template -->
     <link href="css/style.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -29,6 +31,13 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+    <!-- Highcharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.6/proj4.js"></script>
+    <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+    <script src="http://code.highcharts.com/mapdata/countries/us/us-ny-all.js"></script>
+    <!-- <script src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script> -->
+    <script type="text/javascript"></script>
 </head>
 
 <body>
@@ -97,7 +106,7 @@
             </div>
         </div>
     </div>
-    <div id="wifi-hotspots">
+    <div id="wifi-intro">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
@@ -107,18 +116,46 @@
                         </div>
                         <div class="panel-body">
                             <p>Since it was introduced in 1985 and especially during the last two decades, Wireless Internet, or "wi-fi", has exploded in popularity. Wi-fi currently carries more than 60% of the world's internet traffic. So how do my bits get transferred to the internet without a physical wire, you ask? Well, wi-fi essentially works throgh radio waves. </p>
-                            <p> Wi-fi depends on two radios communicating back and forth that use lower power and broadcast over a much shorter distance. Wi-fi depends on the IP protocol to communicate and transfer data over the radio waves. IP is the language of ther internet, making wi-fi very resilient and stuctured. </p>
+                            <p> Wi-fi depends on two radios communicating back and forth that use lower power and broadcast over a much shorter distance. Wi-fi depends on the IP protocol to communicate and transfer data over the radio waves. IP is the language of ther internet, making wi-fi very resilient and stuctured. `</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="internet-connections">
+    <div id="wifi-hotspots">
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="wifi-hotspots-highmaps">
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="data-table">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <div>TESTESTSETE</div>
+                    <table id="bronx-wifi-hotspots" class="display" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>URL</th>
+                                <th>Location</th>
+                            </tr>
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <th>Name</th>
+                                <th>Type</th>
+                                <th>URL</th>
+                                <th>Location</th>
+                            </tr>
+                        </tfoot>
+                    </table>
                 </div>
             </div>
         </div>
@@ -131,6 +168,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/d3.min.js" charset="utf-8"></script>
     <script src="js/c3.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
     <script src="js/script.js" type="text/javascript"></script>
 </body>
 
