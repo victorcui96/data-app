@@ -14,8 +14,7 @@ function generateHighMap() {
         map = H.maps['countries/us/us-ny-all'],
         nyChart;
     var data = [];
-    $.getJSON('../data/free-wifi-hotspots-ny-condensed.json', function(json) {
-        console.log('yo');
+    $.getJSON('../data/free-wifi-hotspots-ny.json', function(json) {
         $.each(json, function() {
             data.push(this);
         });
@@ -23,16 +22,17 @@ function generateHighMap() {
         console.log(data);
         nyChart = Highcharts.mapChart('wifi-hotspots-highmaps', {
             title: {
-                text: 'Highmaps lat/lon demo'
+                text: 'Free wi-fi hotspots in New York City'
             },
             mapNavigation: {
-                enabled: true
+                enabled: false
             },
+            turboThreshold: 0,
             tooltip: {
-                pointFormat: '{point.capital}, {point.parentState}<br>' +
+                pointFormat: 'Name: {point.NAME} <br> Location: {point.LOCATION}, {point.CITY}<br>' +
                     'Lat: {point.lat}<br>' +
                     'Lon: {point.lon}<br>' +
-                    'Population: {point.population}'
+                    'Type: {point.type}'
             },
 
             series: [{
@@ -56,20 +56,22 @@ function generateHighMap() {
                 },
                 name: 'Cities',
                 data: data,
-            //     // data: [{
-            //     //     name: 'Todl',
-            //     //     lat: 40.6095775
-            //     //     }, {
-            //     //         name: 'birmingham',
-            //     //         lat: -74.0
+                //     // data: [{
+                //     //     name: 'Todl',
+                //     //     lat: 40.6095775
+                //     //     }, {
+                //     //         name: 'birmingham',
+                //     //         lat: -74.0
 
-            //     //     }
-            //     // }]
+                //     //     }
+                //     // }]
                 maxSize: '12%',
                 color: H.getOptions().colors[0]
             }]
 
         });
+        nyChart.mapZoom(0.15, 4300, 100, 30, 500);
+
 
     });
 

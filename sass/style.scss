@@ -3,106 +3,162 @@ $dark-purple: #535387;
 $light-purple: #8888c2;
 $light-gray: #cecee7;
 $maroon: #885353;
-
 // breakpoints
 $screen-lg-min: 1280px;
-
 // Fonts
-$playfair: 'Playfair Display', serif;
-$open-sans: 'Open Sans', sans-serif;
-
-
+$playfair: 'Playfair Display',
+serif;
+$open-sans: 'Open Sans',
+sans-serif;
 body {
     background: #fff;
-	color: #000;
+    color: #000;
     // background-image: url("../images/internet2.jpg");
     background-repeat: repeat;
     background-position: center center;
     font-size: 14px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: $playfair;
+
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $playfair;
 }
 
 p {
-	font-family: $open-sans;
-	line-height: 1.5;
+    font-family: $open-sans;
+    line-height: 1.5;
 }
 
-#top-navbar, .navbar-default {
-	background-color: $light-gray;
-	a {
-		font-family: $playfair !important;
-		font-size: 100%;
-	}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Force table to not be like tables anymore */
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    tr {
+        border: 1px solid #ccc;
+    }
+    td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+    }
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+}
+
+#top-navbar,
+.navbar-default {
+    background-color: $light-gray;
+    a {
+        font-family: $playfair !important;
+        font-size: 100%;
+    }
 }
 
 .panel-info {
-	border-color: $light-gray;
-	.panel-heading {
-		background-color: $light-purple;
-		border-color: $light-gray;
-		color: black;
-	}
+    border-color: $light-gray;
+    .panel-heading {
+        background-color: $light-purple;
+        border-color: $light-gray;
+        color: black;
+    }
 }
 
 // Internet sessions div
-
 .library-internet {
-	h2, h4, h5 {
-		text-align: center;
-	}
-	.library-internet-chart {
-		@media screen and (min-width: 1280px) {
-			svg {
-				height: 280px;
-			}
-		}
-	}
+    h2,
+    h4,
+    h5 {
+        text-align: center;
+    }
+    .library-internet-chart {
+        @media screen and (min-width: 1280px) {
+            svg {
+                height: 280px;
+            }
+        }
+    }
 }
 
 .internet-facts {
-	h2, h3, h4 {
-		text-align: center;
-	}
-
-	h3 {
-		margin-top: 0;
-		margin-bottom: 15px;
-	}
-
-	hr {
-		border: 3px solid $maroon;
-	}
-
-	div {
-		background-color: $light-gray;
-		border-color: $dark-purple;
-		border-radius: 10px;
-		h2 {
-			margin-bottom: 10px;
-		}
-		p {
-			padding: 12px;
-		}
-	}
-	
-	.tcp-ip {
-		
-		hr {
-			margin-bottom: 2px;
-		}
-		
-
-	}
+    h2,
+    h3,
+    h4 {
+        text-align: center;
+    }
+    h3 {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    hr {
+        border: 3px solid $maroon;
+    }
+    div {
+        background-color: $light-gray;
+        border-color: $dark-purple;
+        border-radius: 10px;
+        h2 {
+            margin-bottom: 10px;
+        }
+        p {
+            padding: 12px;
+        }
+    }
+    .tcp-ip {
+        hr {
+            margin-bottom: 2px;
+        }
+    }
 }
 
 // Wifi hotspot div
 #wifi-intro {
-	.panel-heading {
-		h4 {
-			text-align: center;
-		}
-	}
+    .panel-heading {
+        h4 {
+            text-align: center;
+        }
+    }
 }
