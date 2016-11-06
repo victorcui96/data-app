@@ -1,0 +1,92 @@
+[
+  {
+    "Year": 2011,
+    "Question": "Broadband Internet connections",
+    "Response": "Digital subscriber line",
+    "Connections": 1034000
+  },
+  {
+    "Year": 2011,
+    "Question": "Broadband Internet connections",
+    "Response": "Cellular, satellite, cable and fixed wireless",
+    "Connections": 413000
+  },
+  {
+    "Year": 2011,
+    "Question": "Broadband Internet connections",
+    "Response": "Fibre optic",
+    "Connections": 3700
+  },
+  {
+    "Year": 2012,
+    "Question": "Broadband Internet connections",
+    "Response": "Digital subscriber line",
+    "Connections": 1131000
+  },
+  {
+    "Year": 2012,
+    "Question": "Broadband Internet connections",
+    "Response": "Cellular, satellite, cable and fixed wireless",
+    "Connections": 479000
+  },
+  {
+    "Year": 2012,
+    "Question": "Broadband Internet connections",
+    "Response": "Fibre optic",
+    "Connections": 5400
+  },
+  {
+    "Year": 2013,
+    "Question": "Broadband Internet connections",
+    "Response": "Digital subscriber line",
+    "Connections": 1189000
+  },
+  {
+    "Year": 2013,
+    "Question": "Broadband Internet connections",
+    "Response": "Cellular, satellite, cable and fixed wireless",
+    "Connections": 570000
+  },
+  {
+    "Year": 2013,
+    "Question": "Broadband Internet connections",
+    "Response": "Fibre optic",
+    "Connections": 13000
+  },
+  {
+    "Year": 2014,
+    "Question": "Broadband Internet connections",
+    "Response": "Digital subscriber line",
+    "Connections": 1321000
+  },
+  {
+    "Year": 2014,
+    "Question": "Broadband Internet connections",
+    "Response": "Cellular, satellite, cable and fixed wireless",
+    "Connections": 550000
+  },
+  {
+    "Year": 2014,
+    "Question": "Broadband Internet connections",
+    "Response": "Fibre optic",
+    "Connections": 46000
+  },
+  {
+    "Year": 2015,
+    "Question": "Broadband Internet connections",
+    "Response": "Digital subscriber line",
+    "Connections": 1335000
+  },
+  {
+    "Year": 2015,
+    "Question": "Broadband Internet connections",
+    "Response": "Cellular, satellite, cable and fixed wireless",
+    "Connections": 485000
+  },
+  {
+    "Year": 2015,
+    "Question": "Broadband Internet connections",
+    "Response": "Fibre optic",
+    "Connections": 105000
+  }
+]

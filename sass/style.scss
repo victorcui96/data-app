@@ -36,6 +36,11 @@ h4,
 h5,
 h6 {
     font-family: $playfair;
+    font-weight: bolder;
+}
+
+li {
+	font-family: $open-sans;
 }
 
 p {
@@ -114,6 +119,9 @@ and also iPads specifically.
     h5 {
         text-align: center;
     }
+    h5 {
+    	font-style: italic;
+    }
     .library-internet-chart {
         @media screen and (min-width: 1280px) {
             svg {
@@ -152,6 +160,11 @@ and also iPads specifically.
             margin-bottom: 2px;
         }
     }
+    .tcp-ip, .cookies {
+    	h3 {
+    		font-weight: normal;
+    	}
+    }
 }
 
 // Wifi hotspot div
@@ -161,4 +174,11 @@ and also iPads specifically.
             text-align: center;
         }
     }
+}
+
+// Data Table
+#data-table {
+	p {
+		font-style: italic;
+	}
 }

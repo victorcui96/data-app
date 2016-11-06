@@ -5,6 +5,11 @@ $(function() {
     $('#bronx-wifi-hotspots').DataTable({
         "ajax": '../data/bronx-wifi-hotspots.json'
     });
+    // var navItem = $('.navbar-nav').find('li');
+    // console.log(navItem);
+    // navItem.find('a').on('click', function(event) {
+    //     navItem.addClass('active');
+    // });
 
 
 });
@@ -32,13 +37,13 @@ function generateHighMap() {
                 pointFormat: 'Name: {point.NAME} <br> Location: {point.LOCATION}, {point.CITY}<br>' +
                     'Lat: {point.lat}<br>' +
                     'Lon: {point.lon}<br>' +
-                    'Type: {point.type}'
+                    'Type: {point.TYPE}'
             },
 
             series: [{
                 name: 'Basemap',
                 mapData: map,
-                borderColor: '#G30FGE',
+                borderColor: '#606060',
                 nullColor: 'rgba(200, 200, 200, 0.2)',
                 showInLegend: false
             }, {
@@ -54,17 +59,8 @@ function generateHighMap() {
                     enabled: true,
                     format: '{point.LAT}'
                 },
-                name: 'Cities',
+                name: 'Wi-fi hotspot',
                 data: data,
-                //     // data: [{
-                //     //     name: 'Todl',
-                //     //     lat: 40.6095775
-                //     //     }, {
-                //     //         name: 'birmingham',
-                //     //         lat: -74.0
-
-                //     //     }
-                //     // }]
                 maxSize: '12%',
                 color: H.getOptions().colors[0]
             }]
