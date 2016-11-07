@@ -1,0 +1,247 @@
+[
+  {
+    "Year": 2011,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download less than 1.5Mbps",
+    "Sub-response": "",
+    "Connections": 169000
+  },
+  {
+    "Year": 2011,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 1.5Mbps to less than 8Mbps",
+    "Sub-response": "",
+    "Connections": 308000
+  },
+  {
+    "Year": 2011,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 8Mbps to less than 24Mbps",
+    "Sub-response": "",
+    "Connections": 936000
+  },
+  {
+    "Year": 2011,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 24Mbps to less than 50Mbps",
+    "Sub-response": "",
+    "Connections": 25000
+  },
+  {
+    "Year": 2011,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 50Mbps to less than 100Mbps",
+    "Sub-response": "",
+    "Connections": 170
+  },
+  {
+    "Year": 2011,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 100Mbps or greater",
+    "Sub-response": "",
+    "Connections": 4800
+  },
+  {
+    "Year": 2011,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download Unknown",
+    "Sub-response": "",
+    "Connections": 7500
+  },
+  {
+    "Year": 2012,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download less than 1.5Mbps",
+    "Sub-response": "",
+    "Connections": 39000
+  },
+  {
+    "Year": 2012,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 1.5Mbps to less than 8Mbps",
+    "Sub-response": "",
+    "Connections": 453000
+  },
+  {
+    "Year": 2012,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 8Mbps to less than 24Mbps",
+    "Sub-response": "",
+    "Connections": 1105000
+  },
+  {
+    "Year": 2012,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 24Mbps to less than 50Mbps",
+    "Sub-response": "",
+    "Connections": 10000
+  },
+  {
+    "Year": 2012,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 50Mbps to less than 100Mbps",
+    "Sub-response": "",
+    "Connections": 870
+  },
+  {
+    "Year": 2012,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 100Mbps or greater",
+    "Sub-response": "",
+    "Connections": 1800
+  },
+  {
+    "Year": 2012,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download Unknown",
+    "Sub-response": "",
+    "Connections": 5900
+  },
+  {
+    "Year": 2013,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download less than 1.5Mbps",
+    "Sub-response": "",
+    "Connections": 32000
+  },
+  {
+    "Year": 2013,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 1.5Mbps to less than 8Mbps",
+    "Sub-response": "",
+    "Connections": 170000
+  },
+  {
+    "Year": 2013,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 8Mbps to less than 24Mbps",
+    "Sub-response": "",
+    "Connections": 1427000
+  },
+  {
+    "Year": 2013,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 24Mbps to less than 50Mbps",
+    "Sub-response": "",
+    "Connections": 61000
+  },
+  {
+    "Year": 2013,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 50Mbps to less than 100Mbps",
+    "Sub-response": "",
+    "Connections": 1500
+  },
+  {
+    "Year": 2013,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 100Mbps or greater",
+    "Sub-response": "",
+    "Connections": 71000
+  },
+  {
+    "Year": 2013,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download Unknown",
+    "Sub-response": "",
+    "Connections": 11000
+  },
+  {
+    "Year": 2014,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download less than 1.5Mbps",
+    "Sub-response": "",
+    "Connections": 52000
+  },
+  {
+    "Year": 2014,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 1.5Mbps to less than 8Mbps",
+    "Sub-response": "",
+    "Connections": 203000
+  },
+  {
+    "Year": 2014,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 8Mbps to less than 24Mbps",
+    "Sub-response": "",
+    "Connections": 1339000
+  },
+  {
+    "Year": 2014,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 24Mbps to less than 50Mbps",
+    "Sub-response": "",
+    "Connections": 176000
+  },
+  {
+    "Year": 2014,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 50Mbps to less than 100Mbps",
+    "Sub-response": "",
+    "Connections": 20000
+  },
+  {
+    "Year": 2014,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 100Mbps or greater",
+    "Sub-response": "",
+    "Connections": 106000
+  },
+  {
+    "Year": 2014,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download Unknown",
+    "Sub-response": "",
+    "Connections": 18000
+  },
+  {
+    "Year": 2015,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download less than 1.5Mbps",
+    "Sub-response": "",
+    "Connections": 13000
+  },
+  {
+    "Year": 2015,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 1.5Mbps to less than 8Mbps",
+    "Sub-response": "",
+    "Connections": 32000
+  },
+  {
+    "Year": 2015,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 8Mbps to less than 24Mbps",
+    "Sub-response": "",
+    "Connections": 1424000
+  },
+  {
+    "Year": 2015,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 24Mbps to less than 50Mbps",
+    "Sub-response": "",
+    "Connections": 193000
+  },
+  {
+    "Year": 2015,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 50Mbps to less than 100Mbps",
+    "Sub-response": "",
+    "Connections": 102000
+  },
+  {
+    "Year": 2015,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download 100Mbps or greater",
+    "Sub-response": "",
+    "Connections": 163000
+  },
+  {
+    "Year": 2015,
+    "Question": "Broadband Internet download and upload speeds",
+    "Response": "Download Unknown",
+    "Sub-response": "",
+    "Connections": 18000
+  }
+]
