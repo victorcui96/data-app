@@ -2,7 +2,7 @@
 $(function() {
     $.ajax({
         type: 'GET',
-        url: '../data/broadband-internet-connections.json',
+        url: 'data/broadband-internet-connections.json',
         dataType: 'json',
         success: generatePieChart
     });
@@ -17,7 +17,6 @@ $(function() {
 });
 
 function generateBarGraph(data) {
-    console.log('hi');
     var slowest = [],
         secondSlowest = [],
         thirdSlowest = [],

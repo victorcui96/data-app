@@ -3,7 +3,7 @@ $(function() {
     loadData("data/library-internet-sessions-2011-2016-condensed.json");
     generateHighMap();
     $('#bronx-wifi-hotspots').DataTable({
-        "ajax": '../data/bronx-wifi-hotspots.json'
+        "ajax": 'data/bronx-wifi-hotspots.json'
     });
 
 
@@ -14,12 +14,10 @@ function generateHighMap() {
         map = H.maps['countries/us/us-ny-all'],
         nyChart;
     var data = [];
-    $.getJSON('../data/free-wifi-hotspots-ny.json', function(json) {
+    $.getJSON('data/free-wifi-hotspots-ny.json', function(json) {
         $.each(json, function() {
             data.push(this);
         });
-
-        console.log(data);
         nyChart = Highcharts.mapChart('wifi-hotspots-highmaps', {
             title: {
                 text: 'Free wi-fi hotspots in New York City'
