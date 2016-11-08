@@ -1,1 +1,1 @@
-This is a starter template for any HTML/CSS project that uses SASS, Bootstrap, JQuery, and Font awesome. git clone this repository to get setup.
+This is project 3 for for Steven King's MEJO 586 class taught in Fall 2016 at UNC Chapel-Hill. I used AJAX calls, the c3.js library and highmaps.js library, and javascript to create an interactive data visualization application
