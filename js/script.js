@@ -5,11 +5,6 @@ $(function() {
     $('#bronx-wifi-hotspots').DataTable({
         "ajax": '../data/bronx-wifi-hotspots.json'
     });
-    // var navItem = $('.navbar-nav').find('li');
-    // console.log(navItem);
-    // navItem.find('a').on('click', function(event) {
-    //     navItem.addClass('active');
-    // });
 
 
 });
@@ -129,7 +124,7 @@ function generateLibraryChart(data) {
         axis: {
             x: {
                 label: {
-                    text: "Years"
+                    text: "Year"
                 }
             },
             y: {
@@ -137,6 +132,11 @@ function generateLibraryChart(data) {
                     text: "Number of internet sessions",
                     position: "outer-middle"
 
+                },
+                tick: {
+                    format: function(x) {
+                        return d3.format(",")(x);
+                    },
                 }
 
             }

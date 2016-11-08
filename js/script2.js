@@ -30,12 +30,14 @@ function generateBarGraph(data) {
         thirdSlowestSum = 0,
         fourthSlowestSum = 0,
         fifthSlowestSum = 0,
-        fastestSum = 0;
+        fastestSum = 0,
+        unknownSum = 0;
 
     slowest.push('Less than 1.5Mbps');
-    secondSlowest.push('8Mbps to 24Mbps');
-    thirdSlowest.push('24Mbps to 50Mbps');
-    fourthSlowest.push('50Mbps to 100Mbps');
+    secondSlowest.push('1.5Mbps to 8Mbps');
+    thirdSlowest.push('8Mbps to 24Mbps');
+    fourthSlowest.push('24Mbps to 50Mbps');
+    fifthSlowest.push('50Mbps to 100 Mbps');
     fastest.push('100Mbps or greater');
     unknown.push('Unknown');
 
@@ -44,7 +46,7 @@ function generateBarGraph(data) {
         if (node.Response === 'Download less than 1.5Mbps') {
             slowestSum += node.Connections;
         } else if (node.Response === 'Download 1.5Mbps to less than 8Mbps') {
-            secondSlowest += node.Connections;
+            secondSlowestSum += node.Connections;
         } else if (node.Response === 'Download 8Mbps to less than 24Mbps') {
             thirdSlowestSum += node.Connections;
         } else if (node.Response === 'Download 24Mbps to less than 50Mbps') {
@@ -54,44 +56,55 @@ function generateBarGraph(data) {
         } else if (node.Response === 'Download 100Mbps or greater') {
             fastestSum += node.Connections;
         } else {
-            unknown.push(node.Connections);
+            unknownSum += (node.Connections);
         }
     });
 
     slowest.push(slowestSum);
-    // secondSlowest.push(secondSlowestSum);
+    secondSlowest.push(secondSlowestSum);
     thirdSlowest.push(thirdSlowestSum);
     fourthSlowest.push(fourthSlowestSum);
     fifthSlowest.push(fifthSlowestSum);
     fastest.push(fastestSum);
+    unknown.push(unknownSum);
 
     var downloadSpeedBarGraph = c3.generate({
         bindto: '#broadband-download-speeds',
         axis: {
-            x: {
-                label: {
-                    text: 'blah'
+            y: {
+            	label: {
+            		text: 'Number of Responses',
+            		position: 'outer-middle'
+            	},
+                tick: {
+                    format: function(x) {
+                        return d3.format(",")(x);
+                    },
                 }
             }
         },
+      
         data: {
             columns: [
-               slowest,
-               secondSlowest,
-               thirdSlowest,
-               fourthSlowest,
-               fifthSlowest,
-               fastest,
-               unknown
+                slowest,
+                secondSlowest,
+                thirdSlowest,
+                fourthSlowest,
+                fifthSlowest,
+                fastest,
+                unknown
             ],
             type: 'bar'
         },
-        title: {
-            text: 'Various kinds of internet connections in New Zealand from 2011-2015'
-        },
+       
         tooltip: {
-            title: 'blah'
+            format: {
+                value: function(value) {
+                    return d3.format(",")(value);
+                }
+            }
         }
+
 
     });
 
@@ -142,11 +155,11 @@ function generatePieChart(data) {
             ],
             type: 'pie'
         },
-        title: {
-            text: 'Various kinds of internet connections in New Zealand from 2011-2015'
-        },
         tooltip: {
             title: 'blah'
+        }, 
+        size: {
+        	height: 500
         }
 
     });

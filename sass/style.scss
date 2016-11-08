@@ -13,7 +13,6 @@ sans-serif;
 body {
     background: #fff;
     color: #000;
-    // background-image: url("../images/internet2.jpg");
     background-repeat: repeat;
     background-position: center center;
     font-size: 14px;
@@ -21,8 +20,12 @@ body {
 
 
 /* 
-Generic Styling, for Desktops/Laptops 
+Generic Reset Stylings, for Desktops/Laptops 
 */
+
+ul {
+    padding-left: 0;
+}
 
 table {
     width: 100%;
@@ -40,7 +43,7 @@ h6 {
 }
 
 li {
-	font-family: $open-sans;
+    font-family: $open-sans;
 }
 
 p {
@@ -94,6 +97,14 @@ and also iPads specifically.
     }
 }
 
+.align-center {
+	text-align: center;
+}
+
+.left-align {
+    text-align: left !important;
+}
+
 #top-navbar,
 .navbar-default {
     background-color: $light-gray;
@@ -110,6 +121,13 @@ and also iPads specifically.
         border-color: $light-gray;
         color: black;
     }
+    .panel-body {
+        background-color: $light-gray;
+    }
+}
+
+.library-chart-container {
+    background-color: #fff !important;
 }
 
 // Internet sessions div
@@ -120,7 +138,7 @@ and also iPads specifically.
         text-align: center;
     }
     h5 {
-    	font-style: italic;
+        font-style: italic;
     }
     .library-internet-chart {
         @media screen and (min-width: 1280px) {
@@ -142,7 +160,8 @@ and also iPads specifically.
         margin-bottom: 15px;
     }
     hr {
-        border: 3px solid $maroon;
+        border: 2px solid $maroon;
+        width: 90%;
     }
     div {
         background-color: $light-gray;
@@ -160,10 +179,18 @@ and also iPads specifically.
             margin-bottom: 2px;
         }
     }
-    .tcp-ip, .cookies {
-    	h3 {
-    		font-weight: normal;
-    	}
+    .tcp-ip,
+    .cookies {
+        h3 {
+            font-weight: normal;
+        }
+    }
+}
+
+.broadband-download-speeds-container {
+    h4,
+    h5 {
+        text-align: center;
     }
 }
 
@@ -178,7 +205,66 @@ and also iPads specifically.
 
 // Data Table
 #data-table {
-	p {
-		font-style: italic;
-	}
+    p {
+        font-style: italic;
+    }
+    #bronx-wifi-hotspots {
+        tr {
+            &.odd {
+                background: $light-gray !important;
+                td {
+                    background: $light-gray !important;
+                }
+            }
+            &.even {
+                background: $light-purple !important;
+                td {
+                    background: $light-purple !important;
+                }
+            }
+        }
+    }
+}
+
+// Headline Box in Internet Connections page
+.headline-box {
+    background-color: $light-gray;
+    border-color: $dark-purple;
+    border-radius: 5px;
+    h4,
+    h3 {
+        display: inline-block;
+        text-align: right;
+        float: right;
+    }
+    padding: 10px 15px;
+    margin: 10px 0;
+    &__image {
+        border-radius: 2px;
+        margin: 15px;
+        max-height: 100px;
+        &.wireless {
+            max-height: 50px;
+            margin: 5px;
+        }
+        &.fibre {
+            max-height: 50px;
+            margin: 5px;
+        }
+    }
+    .wireless-box {
+        margin: 10px 0;
+        p {
+            float: right;
+            font-weight: bolder;
+            font-size: 110%;
+            margin-top: 20px;
+        }
+    }
+}
+
+.c3-title,
+.c3-axis-y-label,
+.c3-axis-x-label {
+    font-size: 150%;
 }
