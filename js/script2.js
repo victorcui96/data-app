@@ -8,7 +8,7 @@ $(function() {
     });
     $.ajax({
         type: 'GET',
-        url: '../data/broadband-download-speeds.json',
+        url: 'data/broadband-download-speeds.json',
         dataType: 'json',
         success: generateBarGraph
 
